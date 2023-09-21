@@ -43,3 +43,19 @@ async fn main(){
 
 }
 
+async fn set_user(firebase_client: &Firebase, user: &User) -> Response{
+}
+
+async fn get_users(firebase_client: &Firebase) -> HashMap<String, User>{
+}
+
+
+async fn get_user(firebase_client: &Firebase, id: &String) -> User{
+}
+
+async fn update_user(firebase_client: &Firebase, id: &String, user: &User) -> User{
+}
+
+async fn delete_user(firebase_client: &Firebase, id: &String){
+}
+
